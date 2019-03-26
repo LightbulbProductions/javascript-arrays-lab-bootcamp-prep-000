@@ -1,5 +1,5 @@
 var kittens = ["Milo", "Otis", "Garfield"];
 
-function destructivelyAppendKitten(arr){
+let arr = ["Milo", "Otis", "Garfield"];
   arr.splice(3, 0, "Ralph");
-}
+
