@@ -14,3 +14,7 @@ function destructivelyPrependKitten(name){
  function destructivelyRemoveFirstKitten(name){
   kittens.splice(0,1);
  }
+ 
+ function  appendKitten(name){
+   kittens.
+ }
