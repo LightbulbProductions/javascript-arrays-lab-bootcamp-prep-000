@@ -6,8 +6,9 @@ function destructivelyAppendKitten(name){
 function destructivelyPrependKitten(name){
   kittens.splice(0,0, "Bob");
 }
- function destructivelyRemoveLastKitten(){
-   kittens.slice(-1);
+ function destructivelyRemoveLastKitten(arr){
+   kittens.pop()
+  return kittens;
  }
  
 // function destructivelyRemoveFirstKitten(){
